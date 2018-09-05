@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Button from '../Button/Button.js'
-import * as Ramda from 'ramda'
+import Utils from '../../Utils.js'
+import * as R from 'ramda'
 import ButtonUtils from '../Button/ButtonUtils.js'
 import '../../Styles/ToolTip/ToolTip.css';
 
@@ -17,9 +18,14 @@ class ToolTip extends Component {
     const selection = this.props.selection;
 
     // build a formatter
-    const twitterFormatter = ButtonUtils.formatter(ButtonUtils.formatTweet);
-    const twitterFunctionality = Ramda.compose(ButtonUtils.sendTweet, ButtonUtils.log, encodeURIComponent, twitterFormatter);
+    const twitterFormatter = ButtonUtils.formatter(R.compose(ButtonUtils.formatTweet, Utils.replaceNewlines));
+    const twitterFunctionality = R.compose(ButtonUtils.sendTweet, ButtonUtils.log, encodeURIComponent, twitterFormatter);
     buttons.push(<Button key="twitter" type="twitter" methods={twitterFunctionality} selection={selection}/>);
+
+    const fbFormatter = ButtonUtils.formatter(Utils.replaceNewlines);
+    const fbFuncs = R.compose(ButtonUtils.shareFacebook, encodeURIComponent, fbFormatter);
+    buttons.push(<Button key="facebook" type="facecbook" methods={fbFuncs} selection={selection}/>);
+    buttons.push(<Button key="facebook" type="clog" methods={fbFuncs} selection={selection}/>);
 
     return buttons;
   }
@@ -27,14 +33,12 @@ class ToolTip extends Component {
   getPosition() {
     const selection = this.props.selection;
     const rect = selection.getRangeAt(0).getBoundingClientRect();
-    
-    const top = rect.top + window.scrollY;
-    const left = rect.left + window.scrollX;
-    const right = rect.right + window.scrollX;
 
-    const middle = (left + right)/2;
+    const top = rect.top - 55 + window.scrollY;
+    const middle = ((rect.left + window.scrollX) + (rect.right + window.scrollX))/2;
+    console.log({rect}, middle);
 
-    return {'position': 'absolute', top, left: middle};
+    return {top, left: middle};
   }
 
 
@@ -42,10 +46,11 @@ class ToolTip extends Component {
     const buttons = this.getButtons();
     const position = this.getPosition();
     return (
-      <div className="ToolTip" style={position}>
-        <header className="ToolTip-header">
+      <div className="tooltip" style={position}>
+        <div className="top">
           {buttons}
-        </header>
+          <i className="arrow"></i>
+        </div>
       </div>
     );
   }

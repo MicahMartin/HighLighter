@@ -1,30 +1,39 @@
-.ToolTip {
-  text-align: center;
+.tooltip {
+    position:absolute;
 }
 
-.ToolTip-logo {
-  animation: ToolTip-logo-spin infinite 20s linear;
-  height: 40px;
+.tooltip .top {
+    min-width:75px;
+    max-width:200px;
+    height: 40px;
+    background-color: green;
+    font-weight:normal;
+    font-size:14px;
+    border-radius:8px;
+    position: relative;
+    box-sizing:border-box;
+    box-shadow:0 1px 8px rgba(0,0,0,0.5);
 }
 
-.ToolTip-header {
-  background-color: #222;
-  height: 25px;
-  padding: 20px;
-  color: white;
-  width: 10%;
-  margin: 0 auto;
+
+.tooltip .top i {
+    position:absolute;
+    top:100%;
+    left:30%;
+    width:30px;
+    height:15px;
+    overflow:hidden;
 }
 
-.ToolTip-title {
-  font-size: 1.5em;
+.tooltip .top i::after {
+    content:'';
+    position:absolute;
+    width:15px;
+    height:15px;
+    left:50%;
+    transform:translate(-50%,-50%) rotate(45deg);
+    background-color:green;
+    box-shadow:0 1px 8px rgba(0,0,0,0.5);
 }
 
-.ToolTip-intro {
-  font-size: large;
-}
 
-@keyframes ToolTip-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}

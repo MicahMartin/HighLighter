@@ -10,11 +10,11 @@ const Button = (props) => {
 
   // vim highlighter breaks when i wrap tempale strings in curly braces
   // sue me
-  const unnececaryFn = component => `${props.type}--${component}`;
+  const unnececaryFn = (type, component) => `button--${component} ${type}`;
 
   return (
-    <div className={unnececaryFn('container')}>
-      <button className={unnececaryFn('button')} onClick={clickHandler} />
+    <div className={unnececaryFn(props.type, 'container')}>
+      <button className={unnececaryFn(props.type, 'button')} onClick={clickHandler} />
     </div>
     
   );

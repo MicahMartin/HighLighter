@@ -1,5 +1,6 @@
-import * as Ramda from 'ramda'
+import * as R from 'ramda'
 import Utils from '../../Utils.js';
+import '../../Styles/Button/Button.css';
 
 export default class ButtonUtils {
 
@@ -9,7 +10,7 @@ export default class ButtonUtils {
     return formatFn(selectionText);
   };
 
-  static formatter = Ramda.curry(ButtonUtils.formatSelection);
+  static formatter = R.curry(ButtonUtils.formatSelection);
 
   static formatTweet(textContent) {
     // TODO: babel plugin for safe nav operator
@@ -28,7 +29,8 @@ export default class ButtonUtils {
     return tweetIntent;
   };
 
-  static facebookFn(selection) {
+  static shareFacebook(selection) {
+    console.log("sharing ", selection);
     
     return selection;
   };

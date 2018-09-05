@@ -10,8 +10,10 @@ document.addEventListener('mouseup', function(event){
   setTimeout(()=> {
      const selection = window.getSelection();
      if (selection.isCollapsed) {
+      console.log("unloading");
       ReactDOM.unmountComponentAtNode(container);
      } else{
+      console.log("rendering");
       ReactDOM.render(<ToolTip selection={selection} />, container);
      }
   }, 1) // sigh
