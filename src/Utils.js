@@ -3,8 +3,7 @@ export default class Utils {
 
   static getSelected = () => {
     let selectedElem = "";
-    if(window.getSelection() && window.getSelection().type == 'Range' && !window.getSelection().isCollapsed){
-      console.log(window.getSelection());
+    if(window.getSelection && window.getSelection().type === 'Range' && !window.getSelection().isCollapsed){
       selectedElem = window.getSelection();
     }
     return selectedElem;

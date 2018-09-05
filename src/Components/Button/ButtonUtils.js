@@ -4,7 +4,8 @@ import Utils from '../../Utils.js';
 export default class ButtonUtils {
 
   static formatSelection = (formatFn, selection) => { 
-    const selectionText = selection.textContent;
+    // Should be a Selection obj at this point
+    const selectionText = selection.toString();
     return formatFn(selectionText);
   };
 

@@ -7,11 +7,10 @@ import './index.css';
 
 const container = document.getElementById('root');
 
-document.addEventListener('mouseup', event => {
-  let selection = Utils.getSelected();
+document.body.addEventListener('mouseup', event => {
+  const selection = Utils.getSelected();
   if(selection){
-    console.log("We've got some selected text yawl ", {selection});
-    ReactDOM.render(<ToolTip selection={selection}/>, container);
+    ReactDOM.render(<ToolTip selection={selection} />, container);
   }else{
     console.log("No text selected! gonna try to unmount");
     ReactDOM.unmountComponentAtNode(container);

@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import Button from '../Button/Button.js'
 import * as Ramda from 'ramda'
 import ButtonUtils from '../Button/ButtonUtils.js'
-import logo from '../../logo.svg';
 import '../../Styles/ToolTip/ToolTip.css';
 
 class ToolTip extends Component {
@@ -15,6 +14,15 @@ class ToolTip extends Component {
 
   determinePosition() {
     const selection = this.props.selection;
+    const rect = selection.getRangeAt(0).getBoundingClientRect();
+    
+    const top = rect.top + window.scrollY;
+    const left = rect.left + window.scrollX;
+    const right = rect.right + window.scrollX;
+
+    const middle = (left + right)/2;
+
+    return {'position': 'absolute', top, left: middle};
   }
 
   getButtons(){
@@ -31,8 +39,9 @@ class ToolTip extends Component {
 
   render() {
     const buttons = this.getButtons();
+    const position = this.determinePosition();
     return (
-      <div className="ToolTip">
+      <div className="ToolTip" style={position}>
         <header className="ToolTip-header">
           {buttons}
         </header>
