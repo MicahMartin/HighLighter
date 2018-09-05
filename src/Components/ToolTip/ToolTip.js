@@ -18,7 +18,7 @@ class ToolTip extends Component {
 
     // build a formatter
     const twitterFormatter = ButtonUtils.formatter(ButtonUtils.formatTweet);
-    const twitterFunctionality = Ramda.compose(ButtonUtils.sendTweet, ButtonUtils.log, twitterFormatter);
+    const twitterFunctionality = Ramda.compose(ButtonUtils.sendTweet, ButtonUtils.log, encodeURIComponent, twitterFormatter);
     buttons.push(<Button key="twitter" type="twitter" methods={twitterFunctionality} selection={selection}/>);
 
     return buttons;
