@@ -3,17 +3,14 @@ import React from 'react';
 
 const Button = (props) => {
 
-  const doStuff = e => {
+  const clickHandler = e => {
     e.preventDefault();
-    // first param should be selectionFormatter(formatType)
-    // selectionFormatter(formatType)(selection)
     props.methods(props.selection);
   }
-  
 
   return (
     <div >
-      <button className="button" onClick={doStuff} />
+      <button className="button" onClick={clickHandler} />
     </div>
     
   );

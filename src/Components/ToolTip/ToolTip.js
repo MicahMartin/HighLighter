@@ -21,10 +21,9 @@ class ToolTip extends Component {
     let buttons = [];
     const selection = this.props.selection;
 
-    // this isnt the best way to approach the problem
-    // I just wanna try out currying and fn composition / (semi) composed components
-    // maybe curry formatSelection to take the formatFunction now and the textSelection later?
-    const twitterFunctionality = Ramda.compose(ButtonUtils.sendTweet, ButtonUtils.log, ButtonUtils.formatTweet, ButtonUtils.formatSelection);
+    // build a formatter
+    const twitterFormatter = ButtonUtils.formatter(ButtonUtils.formatTweet);
+    const twitterFunctionality = Ramda.compose(ButtonUtils.sendTweet, ButtonUtils.log, twitterFormatter);
     buttons.push(<Button key="twitter" methods={twitterFunctionality} selection={selection}/>);
 
     return buttons;

@@ -1,28 +1,27 @@
+import * as Ramda from 'ramda'
 import Utils from '../../Utils.js';
 
 export default class ButtonUtils {
 
-  static formatSelection = selection => { 
+  static formatSelection = (formatFn, selection) => { 
     let selectionText;
     try {
       selectionText = selection.textContent;
     } catch (e) {
       console.error(e);
     }
-    return selectionText;
+    return formatFn(selectionText);
   };
 
-  static formatTweet = textContent => {
-    const twitterCreator = document.querySelector("meta[name='twitter:creator']")?.getAttribute("content");
+  static formatter = Ramda.curry(ButtonUtils.formatSelection);
 
+  static formatTweet = textContent => {
+    // TODO: babel plugin for safe nav operator
+    // good chance creator would be null
+    const twitterCreator = document.querySelector("meta[name='twitter:creator']").getAttribute("content");
     const tweetText = `"${textContent}" — ${twitterCreator}`;
 
     return tweetText;
-  };
-
-  static log(selection) { 
-    console.log({selection});
-    return selection;
   };
 
   static sendTweet = tweetText => {
@@ -33,12 +32,19 @@ export default class ButtonUtils {
     return tweetIntent;
   };
 
-  static facebookFn(selection) {
+  static facebookFn = selection => {
     
     return selection;
   };
 
-  static quoteFn(selection) {
+  static quoteFn = selection => {
     
+    return selection;
   };
+
+  static log = selection => { 
+    console.log({selection});
+    return selection;
+  };
+
 }
