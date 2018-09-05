@@ -1,5 +1,5 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 
 const Button = (props) => {
 
@@ -15,5 +15,10 @@ const Button = (props) => {
     
   );
 }
+
+Button.propTypes = {
+  selection: PropTypes.object.isRequired,
+  methods: PropTypes.func.isRequired
+};
 
 export default Button;
