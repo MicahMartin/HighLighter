@@ -1,27 +1,40 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import Button from '../Button/Button.js'
-import Utils from '../../Utils.js'
 import * as R from 'ramda'
-import ButtonUtils from '../Button/ButtonUtils.js'
+
+import Button from '../Button/Button.js'
+import Utils from '../../Utils/Utils.js'
+import TwitterUtils from '../../Utils/TwitterUtils.js'
+import FacebookUtils from '../../Utils/FacebookUtils.js'
+import CommentUtils from '../../Utils/CommentUtils.js'
+// import ButtonUtils from '../../Utils/ButtonUtils.js'
+
 import '../../Styles/ToolTip/ToolTip.css';
 
 class ToolTip extends Component {
+
   getButtons(){
     const buttons = [];
     const selection = this.props.selection.toString();
+    const logger = Utils.log("Button logger");
 
-    // build a formatter
-    const twitterFormatter = R.compose(ButtonUtils.formatTweet, Utils.replaceNewlines);
-    const twitterFuncs = R.compose(ButtonUtils.sendTweet, ButtonUtils.log, encodeURIComponent, twitterFormatter);
+    // twitter button
+    const twitterFormatter = R.compose(TwitterUtils.formatTweet, Utils.replaceNewlines);
+    const twitterFuncs = R.compose(TwitterUtils.sendTweet, logger, encodeURIComponent, twitterFormatter);
     buttons.push(<Button key="twitter" type="twitter" methods={twitterFuncs} selection={selection}/>);
 
-    const fbFuncs = R.compose(ButtonUtils.shareFacebook, ButtonUtils.log);
-    buttons.push(<Button key="facebook" type="facebook" methods={fbFuncs} selection={selection}/>);
+    // facebook button
+    buttons.push(<Button key="facebook" type="facebook" methods={FacebookUtils.shareFacebook} selection={selection}/>);
 
-
-    const commentFormatter = R.compose(ButtonUtils.formatComment, Utils.replaceNewlines);
-    const commentFuncs = R.compose(ButtonUtils.openComments, commentFormatter);
+    // comment button
+    const options = Utils.keyEqValFormat({
+        id: "tooltip-comment",
+        class: "woohoo",
+        "font-size": "30px"
+    });
+    const italicsWrapper = Utils.tagWrapper('i')(options);
+    const commentFormatter = R.compose(CommentUtils.formatComment, italicsWrapper, Utils.replaceNewlines);
+    const commentFuncs = R.compose(CommentUtils.openComments, logger, commentFormatter);
     buttons.push(<Button key="comment" type="comment" methods={commentFuncs} selection={selection}/>);
 
     return buttons;
