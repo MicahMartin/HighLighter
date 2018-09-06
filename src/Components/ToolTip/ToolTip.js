@@ -15,17 +15,20 @@ class ToolTip extends Component {
 
   getButtons(){
     const buttons = [];
-    const selection = this.props.selection;
+    const selection = this.props.selection.toString();
 
     // build a formatter
-    const twitterFormatter = ButtonUtils.formatter(R.compose(ButtonUtils.formatTweet, Utils.replaceNewlines));
-    const twitterFunctionality = R.compose(ButtonUtils.sendTweet, ButtonUtils.log, encodeURIComponent, twitterFormatter);
-    buttons.push(<Button key="twitter" type="twitter" methods={twitterFunctionality} selection={selection}/>);
+    const twitterFormatter = R.compose(ButtonUtils.formatTweet, Utils.replaceNewlines);
+    const twitterFuncs = R.compose(ButtonUtils.sendTweet, ButtonUtils.log, encodeURIComponent, twitterFormatter);
+    buttons.push(<Button key="twitter" type="twitter" methods={twitterFuncs} selection={selection}/>);
 
-    const fbFormatter = ButtonUtils.formatter(Utils.replaceNewlines);
-    const fbFuncs = R.compose(ButtonUtils.shareFacebook, encodeURIComponent, fbFormatter);
+    const fbFuncs = R.compose(ButtonUtils.shareFacebook, ButtonUtils.log);
     buttons.push(<Button key="facebook" type="facecbook" methods={fbFuncs} selection={selection}/>);
-    buttons.push(<Button key="facebook" type="clog" methods={fbFuncs} selection={selection}/>);
+
+
+    const commentFormatter = R.compose(Utils.replaceNewlines);
+    const commentFuncs = R.compose(ButtonUtils.shareFacebook, encodeURIComponent, commentFormatter);
+    buttons.push(<Button key="comment" type="comment" methods={commentFuncs} selection={selection}/>);
 
     return buttons;
   }

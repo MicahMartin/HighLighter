@@ -21,7 +21,7 @@ const Button = (props) => {
 }
 
 Button.propTypes = {
-  selection: PropTypes.object.isRequired,
+  selection: PropTypes.string.isRequired,
   methods: PropTypes.func.isRequired,
   type: PropTypes.string.isRequired
 };

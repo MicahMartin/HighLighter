@@ -1,16 +1,7 @@
-import * as R from 'ramda'
 import Utils from '../../Utils.js';
 import '../../Styles/Button/Button.css';
 
 export default class ButtonUtils {
-
-  static formatSelection(formatFn, selection) { 
-    // Should be a Selection obj at this point
-    const selectionText = selection.toString();
-    return formatFn(selectionText);
-  };
-
-  static formatter = R.curry(ButtonUtils.formatSelection);
 
   static formatTweet(textContent) {
     // TODO: babel plugin for safe nav operator
@@ -31,12 +22,12 @@ export default class ButtonUtils {
 
   static shareFacebook(selection) {
     console.log("sharing ", selection);
-    
     return selection;
   };
 
-  static quoteFn(selection) {
+  static formatComment(selection) {
     
+    console.log("formatting cmment");
     return selection;
   };
 
