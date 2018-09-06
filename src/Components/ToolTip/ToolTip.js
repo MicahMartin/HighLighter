@@ -7,12 +7,6 @@ import ButtonUtils from '../Button/ButtonUtils.js'
 import '../../Styles/ToolTip/ToolTip.css';
 
 class ToolTip extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = { };
-  }
-
   getButtons(){
     const buttons = [];
     const selection = this.props.selection.toString();
@@ -23,11 +17,11 @@ class ToolTip extends Component {
     buttons.push(<Button key="twitter" type="twitter" methods={twitterFuncs} selection={selection}/>);
 
     const fbFuncs = R.compose(ButtonUtils.shareFacebook, ButtonUtils.log);
-    buttons.push(<Button key="facebook" type="facecbook" methods={fbFuncs} selection={selection}/>);
+    buttons.push(<Button key="facebook" type="facebook" methods={fbFuncs} selection={selection}/>);
 
 
-    const commentFormatter = R.compose(Utils.replaceNewlines);
-    const commentFuncs = R.compose(ButtonUtils.shareFacebook, encodeURIComponent, commentFormatter);
+    const commentFormatter = R.compose(ButtonUtils.formatComment, Utils.replaceNewlines);
+    const commentFuncs = R.compose(ButtonUtils.openComments, commentFormatter);
     buttons.push(<Button key="comment" type="comment" methods={commentFuncs} selection={selection}/>);
 
     return buttons;
@@ -39,7 +33,6 @@ class ToolTip extends Component {
 
     const top = rect.top - 55 + window.scrollY;
     const middle = ((rect.left + window.scrollX) + (rect.right + window.scrollX))/2;
-    console.log({rect}, middle);
 
     return {top, left: middle};
   }

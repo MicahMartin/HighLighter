@@ -28,7 +28,13 @@ export default class ButtonUtils {
   static formatComment(selection) {
     
     console.log("formatting cmment");
-    return selection;
+    return `<i className="commentQuote">${selection}</i>`;
+  };
+
+  static openComments(comment) {
+    
+    alert(comment);
+    return comment;
   };
 
   static log(selection) { 

@@ -1,14 +1,23 @@
 .button--container{
   display: inline-block;
   height: 30px;
-  width: 33%;
+  width: 25%;
+  margin: 0px 4% 0px 4%;
 }
 .button--button{
   border:none;
   position:relative;
-  width: 100%;
+  width: 75%;
+  margin: 0 auto;
   height: 100%;
+  background-size: 100% 100% !important;
+}
+.button--button.twitter{
   background: url(http://theoldreader.com/assets/ico-plus-369f50fa00968793b3c2e814f3e55de5.png) no-repeat;
-  background-position: center;
-  text-align: center;
+}
+.button--button.facebook{
+  background: url(http://png.icons8.com/metro/1600/facebook.png) no-repeat;
+}
+.button--button.comment{
+  background: url(http://www.free-icons-download.net/images/comment-icon-46236.png) no-repeat;
 }

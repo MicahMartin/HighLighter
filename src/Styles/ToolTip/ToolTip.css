@@ -3,7 +3,7 @@
 }
 
 .tooltip .top {
-    min-width:75px;
+    min-width:200px;
     max-width:200px;
     height: 40px;
     background-color: green;
