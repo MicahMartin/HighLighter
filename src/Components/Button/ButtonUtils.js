@@ -21,7 +21,12 @@ export default class ButtonUtils {
   };
 
   static shareFacebook(selection) {
-    console.log("sharing ", selection);
+    window.FB.ui({
+      method: 'share',
+      mobile_iframe: true,
+      href: `${Utils.getUrl()}`,
+      quote: selection,
+    }, this.log);
     return selection;
   };
 

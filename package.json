@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "asyncawait": "^1.0.7",
     "autoprefixer": "7.1.6",
     "babel-core": "6.26.0",
     "babel-eslint": "7.2.3",
@@ -36,6 +37,7 @@
     "react": "^16.4.2",
     "react-dev-utils": "^5.0.2",
     "react-dom": "^16.4.2",
+    "renamer": "^1.0.0",
     "resolve": "1.6.0",
     "style-loader": "0.19.0",
     "sw-precache-webpack-plugin": "0.11.4",
@@ -47,8 +49,11 @@
   },
   "scripts": {
     "start": "node scripts/start.js",
-    "build": "node scripts/build.js",
-    "test": "node scripts/test.js --env=jsdom"
+    "test": "node scripts/test.js --env=jsdom",
+    "build-rename": "npm run build-rename-js && npm run build-rename-css",
+    "build-rename-js": "cp build/static/js/main.*.js build/static/js/highlighter.js",
+    "build-rename-css": "cp build/static/css/main.*.css build/static/css/highlighter.css",
+    "build": "node scripts/build.js && npm run build-rename"
   },
   "jest": {
     "collectCoverageFrom": [
@@ -91,5 +96,8 @@
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "devDependencies": {
+    "renamer": "^1.0.0"
   }
 }

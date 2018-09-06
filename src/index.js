@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import registerServiceWorker from './registerServiceWorker';
 import ToolTip from './Components/ToolTip/ToolTip.js';
 import './index.css';
 
@@ -19,5 +18,3 @@ document.addEventListener('mouseup', function(event){
   }, 1) // sigh
  }
 );
-
-registerServiceWorker();
