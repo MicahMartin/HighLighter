@@ -1,5 +1,8 @@
 import Utils from '../Utils/Utils.js';
 
+/**
+ * Facebook services class
+*/
 export default class FacebookUtils {
 
   static shareFacebook(selection) {

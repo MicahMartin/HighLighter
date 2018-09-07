@@ -1,5 +1,8 @@
 import Utils from './Utils.js';
 
+/**
+ * Twitter services class
+*/
 export default class TwitterUtils {
 
   static formatTweet(textContent) {

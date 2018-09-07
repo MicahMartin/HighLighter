@@ -1,6 +1,9 @@
+/**
+ * Comment services class
+*/
 export default class CommentUtils {
 
-  static openComments(comment) {
+  static openComments() {
     const commentContent = document.getElementById('comments-content');
     const commentToggleBar = document.getElementById('comments-toggle-bar');
 

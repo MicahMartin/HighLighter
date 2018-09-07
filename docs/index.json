@@ -1,0 +1,1456 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/Components/Button/Button.js",
+    "content": "import React from 'react';\nimport PropTypes from 'prop-types';\nimport '../../Styles/Button/Button.css';\n\nconst Button = (props) => {\n\n  function clickHandler(event) {\n    event.preventDefault();\n    props.methods(props.selection);\n  }\n\n  // vim highlighter breaks when i wrap tempale strings in curly braces\n  // sue me\n  const unnececaryFn = (type, component) => `button--${component} ${type}`;\n\n  return (\n    <div className={unnececaryFn(props.type, 'container')}>\n      <button className={unnececaryFn(props.type, 'button')} onClick={clickHandler} />\n    </div>\n    \n  );\n}\n\nButton.propTypes = {\n  selection: PropTypes.string.isRequired,\n  methods: PropTypes.func.isRequired,\n  type: PropTypes.string.isRequired\n};\n\nexport default Button;\n",
+    "static": true,
+    "longname": "/Users/martin/dev/js/highlighter/src/Components/Button/Button.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "function",
+    "name": "Button",
+    "memberof": "src/Components/Button/Button.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Components/Button/Button.js~Button",
+    "access": "public",
+    "export": true,
+    "importPath": "highlighter/src/Components/Button/Button.js",
+    "importStyle": "Button",
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "params": [
+      {
+        "name": "props",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 50,
+    "kind": "file",
+    "name": "src/Components/ToolTip/ToolTip.js",
+    "content": "import React, { Component } from 'react';\nimport PropTypes from 'prop-types';\nimport * as R from 'ramda'\n\nimport Button from '../Button/Button.js'\nimport Utils from '../../Utils/Utils.js'\nimport TwitterUtils from '../../Utils/TwitterUtils.js'\nimport FacebookUtils from '../../Utils/FacebookUtils.js'\nimport CommentUtils from '../../Utils/CommentUtils.js'\n\nimport '../../Styles/ToolTip/ToolTip.css';\n\n/**\n * Main tooltip class.\n * @reactProps {Object} selection - the Selection instance\n */\nclass ToolTip extends Component {\n\n  /**\n   * builds out the buttons for the tooltip\n   * @param {String} selection - the selections text\n   * @returns {[Button]} buttons - list of Button instances\n  */\n  getButtons(selection) {\n    const buttons = [];\n    const logger = Utils.log(\"Button logger\");\n\n    // twitter button\n    const twitterFuncs = R.compose(TwitterUtils.sendTweet, logger, encodeURIComponent, TwitterUtils.formatTweet);\n    buttons.push(<Button key=\"twitter\" type=\"twitter\" methods={twitterFuncs} selection={selection}/>);\n\n    // facebook button\n    buttons.push(<Button key=\"facebook\" type=\"facebook\" methods={FacebookUtils.shareFacebook} selection={selection}/>);\n\n    // comment button\n    const quoteSpan = Utils.tagWrapper('span')({\n        id: \"tooltip-quote\",\n        style: \"font-style: italic; font-size: 12px; color: blue;\"\n    });\n    const commentFormatter = R.compose(quoteSpan, Utils.replaceNewlines);\n    const commentFuncs = R.compose(CommentUtils.addQuoteToForm, logger, commentFormatter);\n    buttons.push(<Button key=\"comment\" type=\"comment\" methods={commentFuncs} selection={selection}/>);\n\n    return buttons;\n  }\n\n  /**\n   * gets the middle of the left and right of the Selection instance\n   * @param {Object} selection - the selection instance\n   * @returns {[Object]} obj - object with top and left defined to be used as style rules\n  */\n  getPosition(selection) {\n    const rect = selection.getRangeAt(0).getBoundingClientRect();\n\n    const top = rect.top - 55 + window.scrollY;\n    const middle = ((rect.left + window.scrollX) + (rect.right + window.scrollX))/2;\n\n    return {top, left: middle};\n  }\n\n  render() {\n    const selection = this.props.selection;\n    const buttons = this.getButtons(selection.toString());\n    const position = this.getPosition(selection);\n    return (\n      <div className=\"tooltip\" style={position}>\n        <div className=\"top\">\n          {buttons}\n          <i className=\"arrow\"></i>\n        </div>\n      </div>\n    );\n  }\n}\n\nToolTip.propTypes = {\n  selection: PropTypes.object.isRequired\n};\n\nexport default ToolTip;\n",
+    "static": true,
+    "longname": "/Users/martin/dev/js/highlighter/src/Components/ToolTip/ToolTip.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 51,
+    "kind": "class",
+    "name": "ToolTip",
+    "memberof": "src/Components/ToolTip/ToolTip.js",
+    "static": true,
+    "longname": "src/Components/ToolTip/ToolTip.js~ToolTip",
+    "access": "public",
+    "export": true,
+    "importPath": "highlighter/src/Components/ToolTip/ToolTip.js",
+    "importStyle": "ToolTip",
+    "description": "Main tooltip class.",
+    "lineNumber": 17,
+    "unknown": [
+      {
+        "tagName": "@reactProps",
+        "tagValue": "{Object} selection - the Selection instance"
+      }
+    ],
+    "interface": false,
+    "extends": [
+      "react~Component"
+    ]
+  },
+  {
+    "__docId__": 52,
+    "kind": "method",
+    "name": "getButtons",
+    "memberof": "src/Components/ToolTip/ToolTip.js~ToolTip",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Components/ToolTip/ToolTip.js~ToolTip#getButtons",
+    "access": "public",
+    "description": "builds out the buttons for the tooltip",
+    "lineNumber": 24,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{[Button]} buttons - list of Button instances"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "selection",
+        "description": "the selections text"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "[Button]"
+      ],
+      "spread": false,
+      "description": "buttons - list of Button instances"
+    }
+  },
+  {
+    "__docId__": 53,
+    "kind": "method",
+    "name": "getPosition",
+    "memberof": "src/Components/ToolTip/ToolTip.js~ToolTip",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Components/ToolTip/ToolTip.js~ToolTip#getPosition",
+    "access": "public",
+    "description": "gets the middle of the left and right of the Selection instance",
+    "lineNumber": 52,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{[Object]} obj - object with top and left defined to be used as style rules"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "selection",
+        "description": "the selection instance"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "[Object]"
+      ],
+      "spread": false,
+      "description": "obj - object with top and left defined to be used as style rules"
+    }
+  },
+  {
+    "__docId__": 54,
+    "kind": "method",
+    "name": "render",
+    "memberof": "src/Components/ToolTip/ToolTip.js~ToolTip",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Components/ToolTip/ToolTip.js~ToolTip#render",
+    "access": "public",
+    "description": null,
+    "lineNumber": 61,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 55,
+    "kind": "file",
+    "name": "src/Utils/ButtonUtils.js",
+    "content": "export default class ButtonUtils {\n\n  static analytics(selection){\n    // doAnalyticsStuff\n    return selection;\n  };\n}\n",
+    "static": true,
+    "longname": "/Users/martin/dev/js/highlighter/src/Utils/ButtonUtils.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 56,
+    "kind": "class",
+    "name": "ButtonUtils",
+    "memberof": "src/Utils/ButtonUtils.js",
+    "static": true,
+    "longname": "src/Utils/ButtonUtils.js~ButtonUtils",
+    "access": "public",
+    "export": true,
+    "importPath": "highlighter/src/Utils/ButtonUtils.js",
+    "importStyle": "ButtonUtils",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "interface": false
+  },
+  {
+    "__docId__": 57,
+    "kind": "method",
+    "name": "analytics",
+    "memberof": "src/Utils/ButtonUtils.js~ButtonUtils",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Utils/ButtonUtils.js~ButtonUtils.analytics",
+    "access": "public",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "params": [
+      {
+        "name": "selection",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 58,
+    "kind": "file",
+    "name": "src/Utils/CommentUtils.js",
+    "content": "/**\n * Comment services class\n*/\nexport default class CommentUtils {\n\n  static openComments() {\n    const commentContent = document.getElementById('comments-content');\n    const commentToggleBar = document.getElementById('comments-toggle-bar');\n\n    try {\n      commentContent.classList.add(\"ugc-comments--active\");\n      commentToggleBar.innerHTML = commentToggleBar.innerHTML.replace('Show', 'Hide');\n    } catch (e) {\n      console.error(\"opencomments error: \", e);\n    } \n  };\n\n  static addQuoteToForm(comment){\n    CommentUtils.openComments();\n    const newComment = document.getElementById('new-comment');\n    const addComment = document.getElementById('add-comment-form');\n\n    try {\n      newComment.value += comment;\n      addComment.scrollIntoView();\n    } catch (e) {\n      console.error(\"addQuote error error: \", e);\n    }\n\n  };\n};\n",
+    "static": true,
+    "longname": "/Users/martin/dev/js/highlighter/src/Utils/CommentUtils.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 59,
+    "kind": "class",
+    "name": "CommentUtils",
+    "memberof": "src/Utils/CommentUtils.js",
+    "static": true,
+    "longname": "src/Utils/CommentUtils.js~CommentUtils",
+    "access": "public",
+    "export": true,
+    "importPath": "highlighter/src/Utils/CommentUtils.js",
+    "importStyle": "CommentUtils",
+    "description": "Comment services class",
+    "lineNumber": 4,
+    "interface": false
+  },
+  {
+    "__docId__": 60,
+    "kind": "method",
+    "name": "openComments",
+    "memberof": "src/Utils/CommentUtils.js~CommentUtils",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Utils/CommentUtils.js~CommentUtils.openComments",
+    "access": "public",
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 61,
+    "kind": "method",
+    "name": "addQuoteToForm",
+    "memberof": "src/Utils/CommentUtils.js~CommentUtils",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Utils/CommentUtils.js~CommentUtils.addQuoteToForm",
+    "access": "public",
+    "description": null,
+    "lineNumber": 18,
+    "undocument": true,
+    "params": [
+      {
+        "name": "comment",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 62,
+    "kind": "file",
+    "name": "src/Utils/FacebookUtils.js",
+    "content": "import Utils from '../Utils/Utils.js';\n\n/**\n * Facebook services class\n*/\nexport default class FacebookUtils {\n\n  static shareFacebook(selection) {\n    try {\n      window.FB.ui({\n        method: 'share',\n        mobile_iframe: true,\n        href: `${Utils.getUrl()}`,\n        quote: selection,\n      });\n    } catch (e) {\n      console.error('fb share :', e);\n    }\n\n    return selection;\n  };\n}\n",
+    "static": true,
+    "longname": "/Users/martin/dev/js/highlighter/src/Utils/FacebookUtils.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 63,
+    "kind": "class",
+    "name": "FacebookUtils",
+    "memberof": "src/Utils/FacebookUtils.js",
+    "static": true,
+    "longname": "src/Utils/FacebookUtils.js~FacebookUtils",
+    "access": "public",
+    "export": true,
+    "importPath": "highlighter/src/Utils/FacebookUtils.js",
+    "importStyle": "FacebookUtils",
+    "description": "Facebook services class",
+    "lineNumber": 6,
+    "interface": false
+  },
+  {
+    "__docId__": 64,
+    "kind": "method",
+    "name": "shareFacebook",
+    "memberof": "src/Utils/FacebookUtils.js~FacebookUtils",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Utils/FacebookUtils.js~FacebookUtils.shareFacebook",
+    "access": "public",
+    "description": null,
+    "lineNumber": 8,
+    "undocument": true,
+    "params": [
+      {
+        "name": "selection",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 65,
+    "kind": "file",
+    "name": "src/Utils/TwitterUtils.js",
+    "content": "import Utils from './Utils.js';\n\n/**\n * Twitter services class\n*/\nexport default class TwitterUtils {\n\n  static formatTweet(textContent) {\n    // TODO: babel plugin for safe nav operator\n    // good chance creator would be null :(\n    const twitterCreator = document.querySelector(\"meta[name='twitter:creator']\") ? \n          `— ${document.querySelector(\"meta[name='twitter:creator']\").getAttribute(\"content\")}` : \n          '';\n\n    const tweetText = `\"${Utils.replaceNewlines(textContent)}\" ${twitterCreator}`;\n\n    return tweetText;\n  };\n\n  static sendTweet(tweetText) {\n    const tweetIntent = `https://twitter.com/intent/tweet?text=${tweetText}&url=${Utils.getUrl()}&via=BostonGlobe`;\n    Utils.newTab(tweetIntent);\n    return tweetIntent;\n  };\n}\n",
+    "static": true,
+    "longname": "/Users/martin/dev/js/highlighter/src/Utils/TwitterUtils.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 66,
+    "kind": "class",
+    "name": "TwitterUtils",
+    "memberof": "src/Utils/TwitterUtils.js",
+    "static": true,
+    "longname": "src/Utils/TwitterUtils.js~TwitterUtils",
+    "access": "public",
+    "export": true,
+    "importPath": "highlighter/src/Utils/TwitterUtils.js",
+    "importStyle": "TwitterUtils",
+    "description": "Twitter services class",
+    "lineNumber": 6,
+    "interface": false
+  },
+  {
+    "__docId__": 67,
+    "kind": "method",
+    "name": "formatTweet",
+    "memberof": "src/Utils/TwitterUtils.js~TwitterUtils",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Utils/TwitterUtils.js~TwitterUtils.formatTweet",
+    "access": "public",
+    "description": null,
+    "lineNumber": 8,
+    "undocument": true,
+    "params": [
+      {
+        "name": "textContent",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 68,
+    "kind": "method",
+    "name": "sendTweet",
+    "memberof": "src/Utils/TwitterUtils.js~TwitterUtils",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Utils/TwitterUtils.js~TwitterUtils.sendTweet",
+    "access": "public",
+    "description": null,
+    "lineNumber": 20,
+    "undocument": true,
+    "params": [
+      {
+        "name": "tweetText",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 69,
+    "kind": "file",
+    "name": "src/Utils/Utils.js",
+    "content": "import * as R from 'ramda'\n\n/**\n * General utility class\n*/\nexport default class Utils {\n\n  /**\n   * curried logger\n   * @param {[Object]} args - any arguments can be passed to the console log\n   * @param {Object} data - Single argument\n   * @returns {console.log([args], data)} - console.log with supplied arguments\n   */\n  static log = (...args) => (data) => {\n    console.log.apply(null, args.concat([data]));\n    return data;\n  };\n\n  /**\n   * curried tag wrapper\n   * @param {String} tagName - name of the tag\n   * @param {Object} attribute object - attributes object\n   * @param {String} text - text to be wrapped\n   * @returns {Function(Function(Function(tagName, attributes, text)))} - tag wrapper with supplied arguments\n   */\n  static tagWrapper = R.curry((tag) => (attributeObject) => (text) => {\n    const attributes = Utils.keyEqValFormat(attributeObject);\n    return `<${tag} ${attributes}>${text}</${tag}>`;\n  });\n\n  /**\n   * formats an object as key=\"value\"\n   * @param {Object} obj - object to be formatted\n   * @param {String} seperator - seperator for formatting\n   * @returns {String} - formatted object as a string\n   */\n  static keyEqValFormat = (obj, seperator = ' ') => {\n    const stringBuilder = [];\n\n    for(let key in obj){\n      stringBuilder.push(`${key}=\"${obj[key]}\"`);\n    }\n\n    const result = stringBuilder.join(seperator);\n    return result;\n  };\n\n  /**\n   * replaces new lines (\\n and \\r) with spaces\n   * @param {String} string - string to be formatted\n   * @returns {Function} - function to be executed with supplied string\n   */\n  static replaceNewlines = R.curry( string => string.replace(/[\\r\\n]+/g, ' '));\n\n  /**\n   * gets the current url without params\n   * @returns {String} - current url without params\n   */\n  static getUrl = () => window.location.href.split(/[?#]/)[0];\n\n  /**\n   * creates a new tab with url and focuses on it\n   * @param {String} url - url to open in a new tab\n   */\n  static newTab = url => {\n    const tab = window.open(url, '_blank');\n    tab.focus();    \n  };\n}\n",
+    "static": true,
+    "longname": "/Users/martin/dev/js/highlighter/src/Utils/Utils.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 70,
+    "kind": "class",
+    "name": "Utils",
+    "memberof": "src/Utils/Utils.js",
+    "static": true,
+    "longname": "src/Utils/Utils.js~Utils",
+    "access": "public",
+    "export": true,
+    "importPath": "highlighter/src/Utils/Utils.js",
+    "importStyle": "Utils",
+    "description": "General utility class",
+    "lineNumber": 6,
+    "interface": false
+  },
+  {
+    "__docId__": 71,
+    "kind": "member",
+    "name": "log",
+    "memberof": "src/Utils/Utils.js~Utils",
+    "static": true,
+    "longname": "src/Utils/Utils.js~Utils.log",
+    "access": "public",
+    "description": "curried logger",
+    "lineNumber": 14,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{console.log([args], data)} - console.log with supplied arguments"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "[Object]"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "args",
+        "description": "any arguments can be passed to the console log"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "data",
+        "description": "Single argument"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "console.log([args], data)"
+      ],
+      "spread": false,
+      "description": "console.log with supplied arguments"
+    },
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 72,
+    "kind": "member",
+    "name": "tagWrapper",
+    "memberof": "src/Utils/Utils.js~Utils",
+    "static": true,
+    "longname": "src/Utils/Utils.js~Utils.tagWrapper",
+    "access": "public",
+    "description": "curried tag wrapper",
+    "lineNumber": 26,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Function(Function(Function(tagName, attributes, text)))} - tag wrapper with supplied arguments"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "tagName",
+        "description": "name of the tag"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "attribute",
+        "description": "object - attributes object"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "text",
+        "description": "text to be wrapped"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Function(Function(Function(tagName, attributes, text)))"
+      ],
+      "spread": false,
+      "description": "tag wrapper with supplied arguments"
+    },
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 73,
+    "kind": "member",
+    "name": "keyEqValFormat",
+    "memberof": "src/Utils/Utils.js~Utils",
+    "static": true,
+    "longname": "src/Utils/Utils.js~Utils.keyEqValFormat",
+    "access": "public",
+    "description": "formats an object as key=\"value\"",
+    "lineNumber": 37,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{String} - formatted object as a string"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "obj",
+        "description": "object to be formatted"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "seperator",
+        "description": "seperator for formatting"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "String"
+      ],
+      "spread": false,
+      "description": "formatted object as a string"
+    },
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 74,
+    "kind": "member",
+    "name": "replaceNewlines",
+    "memberof": "src/Utils/Utils.js~Utils",
+    "static": true,
+    "longname": "src/Utils/Utils.js~Utils.replaceNewlines",
+    "access": "public",
+    "description": "replaces new lines (\\n and \\r) with spaces",
+    "lineNumber": 53,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Function} - function to be executed with supplied string"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "string",
+        "description": "string to be formatted"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Function"
+      ],
+      "spread": false,
+      "description": "function to be executed with supplied string"
+    },
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 75,
+    "kind": "member",
+    "name": "getUrl",
+    "memberof": "src/Utils/Utils.js~Utils",
+    "static": true,
+    "longname": "src/Utils/Utils.js~Utils.getUrl",
+    "access": "public",
+    "description": "gets the current url without params",
+    "lineNumber": 59,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{String} - current url without params"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "String"
+      ],
+      "spread": false,
+      "description": "current url without params"
+    },
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 76,
+    "kind": "member",
+    "name": "newTab",
+    "memberof": "src/Utils/Utils.js~Utils",
+    "static": true,
+    "longname": "src/Utils/Utils.js~Utils.newTab",
+    "access": "public",
+    "description": "creates a new tab with url and focuses on it",
+    "lineNumber": 65,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "url",
+        "description": "url to open in a new tab"
+      }
+    ],
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 77,
+    "kind": "file",
+    "name": "src/index.js",
+    "content": "import React from 'react';\nimport ReactDOM from 'react-dom';\nimport ToolTip from './Components/ToolTip/ToolTip.js';\nimport './index.css';\n\nconst container = document.getElementById('root');\n\ndocument.addEventListener('mouseup', function(event){\n  setTimeout(()=> {\n     const selection = window.getSelection();\n     if (selection.isCollapsed) {\n      console.log(\"unloading\");\n      ReactDOM.unmountComponentAtNode(container);\n     } else{\n      console.log(\"rendering\");\n      ReactDOM.render(<ToolTip selection={selection} />, container);\n     }\n  }, 1) // sigh\n }\n);\n",
+    "static": true,
+    "longname": "/Users/martin/dev/js/highlighter/src/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 78,
+    "kind": "variable",
+    "name": "container",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~container",
+    "access": "public",
+    "export": false,
+    "importPath": "highlighter/src/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 79,
+    "kind": "file",
+    "name": "src/registerServiceWorker.js",
+    "content": "// In production, we register a service worker to serve assets from local cache.\n\n// This lets the app load faster on subsequent visits in production, and gives\n// it offline capabilities. However, it also means that developers (and users)\n// will only see deployed updates on the \"N+1\" visit to a page, since previously\n// cached resources are updated in the background.\n\n// To learn more about the benefits of this model, read https://goo.gl/KwvDNy.\n// This link also includes instructions on opting out of this behavior.\n\nconst isLocalhost = Boolean(\n  window.location.hostname === 'localhost' ||\n    // [::1] is the IPv6 localhost address.\n    window.location.hostname === '[::1]' ||\n    // 127.0.0.1/8 is considered localhost for IPv4.\n    window.location.hostname.match(\n      /^127(?:\\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/\n    )\n);\n\nexport default function register() {\n  if (process.env.NODE_ENV === 'production' && 'serviceWorker' in navigator) {\n    // The URL constructor is available in all browsers that support SW.\n    const publicUrl = new URL(process.env.PUBLIC_URL, window.location);\n    if (publicUrl.origin !== window.location.origin) {\n      // Our service worker won't work if PUBLIC_URL is on a different origin\n      // from what our page is served on. This might happen if a CDN is used to\n      // serve assets; see https://github.com/facebookincubator/create-react-app/issues/2374\n      return;\n    }\n\n    window.addEventListener('load', () => {\n      const swUrl = `${process.env.PUBLIC_URL}/service-worker.js`;\n\n      if (isLocalhost) {\n        // This is running on localhost. Lets check if a service worker still exists or not.\n        checkValidServiceWorker(swUrl);\n\n        // Add some additional logging to localhost, pointing developers to the\n        // service worker/PWA documentation.\n        navigator.serviceWorker.ready.then(() => {\n          console.log(\n            'This web app is being served cache-first by a service ' +\n              'worker. To learn more, visit https://goo.gl/SC7cgQ'\n          );\n        });\n      } else {\n        // Is not local host. Just register service worker\n        registerValidSW(swUrl);\n      }\n    });\n  }\n}\n\nfunction registerValidSW(swUrl) {\n  navigator.serviceWorker\n    .register(swUrl)\n    .then(registration => {\n      registration.onupdatefound = () => {\n        const installingWorker = registration.installing;\n        installingWorker.onstatechange = () => {\n          if (installingWorker.state === 'installed') {\n            if (navigator.serviceWorker.controller) {\n              // At this point, the old content will have been purged and\n              // the fresh content will have been added to the cache.\n              // It's the perfect time to display a \"New content is\n              // available; please refresh.\" message in your web app.\n              console.log('New content is available; please refresh.');\n            } else {\n              // At this point, everything has been precached.\n              // It's the perfect time to display a\n              // \"Content is cached for offline use.\" message.\n              console.log('Content is cached for offline use.');\n            }\n          }\n        };\n      };\n    })\n    .catch(error => {\n      console.error('Error during service worker registration:', error);\n    });\n}\n\nfunction checkValidServiceWorker(swUrl) {\n  // Check if the service worker can be found. If it can't reload the page.\n  fetch(swUrl)\n    .then(response => {\n      // Ensure service worker exists, and that we really are getting a JS file.\n      if (\n        response.status === 404 ||\n        response.headers.get('content-type').indexOf('javascript') === -1\n      ) {\n        // No service worker found. Probably a different app. Reload the page.\n        navigator.serviceWorker.ready.then(registration => {\n          registration.unregister().then(() => {\n            window.location.reload();\n          });\n        });\n      } else {\n        // Service worker found. Proceed as normal.\n        registerValidSW(swUrl);\n      }\n    })\n    .catch(() => {\n      console.log(\n        'No internet connection found. App is running in offline mode.'\n      );\n    });\n}\n\nexport function unregister() {\n  if ('serviceWorker' in navigator) {\n    navigator.serviceWorker.ready.then(registration => {\n      registration.unregister();\n    });\n  }\n}\n",
+    "static": true,
+    "longname": "/Users/martin/dev/js/highlighter/src/registerServiceWorker.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 80,
+    "kind": "variable",
+    "name": "isLocalhost",
+    "memberof": "src/registerServiceWorker.js",
+    "static": true,
+    "longname": "src/registerServiceWorker.js~isLocalhost",
+    "access": "public",
+    "export": false,
+    "importPath": "highlighter/src/registerServiceWorker.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 81,
+    "kind": "function",
+    "name": "register",
+    "memberof": "src/registerServiceWorker.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/registerServiceWorker.js~register",
+    "access": "public",
+    "export": true,
+    "importPath": "highlighter/src/registerServiceWorker.js",
+    "importStyle": "register",
+    "description": null,
+    "lineNumber": 21,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 82,
+    "kind": "function",
+    "name": "registerValidSW",
+    "memberof": "src/registerServiceWorker.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/registerServiceWorker.js~registerValidSW",
+    "access": "public",
+    "export": false,
+    "importPath": "highlighter/src/registerServiceWorker.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 55,
+    "undocument": true,
+    "params": [
+      {
+        "name": "swUrl",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 83,
+    "kind": "function",
+    "name": "checkValidServiceWorker",
+    "memberof": "src/registerServiceWorker.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/registerServiceWorker.js~checkValidServiceWorker",
+    "access": "public",
+    "export": false,
+    "importPath": "highlighter/src/registerServiceWorker.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 84,
+    "undocument": true,
+    "params": [
+      {
+        "name": "swUrl",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 84,
+    "kind": "function",
+    "name": "unregister",
+    "memberof": "src/registerServiceWorker.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/registerServiceWorker.js~unregister",
+    "access": "public",
+    "export": true,
+    "importPath": "highlighter/src/registerServiceWorker.js",
+    "importStyle": "{unregister}",
+    "description": null,
+    "lineNumber": 111,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "kind": "index",
+    "content": "# HighLighter",
+    "longname": "/Users/martin/dev/js/highlighter/README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"highlighter\",\n  \"version\": \"0.1.0\",\n  \"private\": true,\n  \"dependencies\": {\n    \"@babel/core\": \"^7.0.0\",\n    \"asyncawait\": \"^1.0.7\",\n    \"autoprefixer\": \"7.1.6\",\n    \"babel-core\": \"6.26.0\",\n    \"babel-eslint\": \"7.2.3\",\n    \"babel-jest\": \"20.0.3\",\n    \"babel-loader\": \"7.1.2\",\n    \"babel-preset-react-app\": \"^3.1.2\",\n    \"babel-runtime\": \"6.26.0\",\n    \"case-sensitive-paths-webpack-plugin\": \"2.1.1\",\n    \"chalk\": \"1.1.3\",\n    \"css-loader\": \"0.28.7\",\n    \"dotenv\": \"4.0.0\",\n    \"dotenv-expand\": \"4.2.0\",\n    \"eslint\": \"4.10.0\",\n    \"eslint-config-react-app\": \"^2.1.0\",\n    \"eslint-loader\": \"1.9.0\",\n    \"eslint-plugin-flowtype\": \"2.39.1\",\n    \"eslint-plugin-import\": \"2.8.0\",\n    \"eslint-plugin-jsx-a11y\": \"5.1.1\",\n    \"eslint-plugin-react\": \"7.4.0\",\n    \"extract-text-webpack-plugin\": \"3.0.2\",\n    \"file-loader\": \"1.1.5\",\n    \"fs-extra\": \"3.0.1\",\n    \"html-webpack-plugin\": \"2.29.0\",\n    \"jest\": \"20.0.4\",\n    \"object-assign\": \"4.1.1\",\n    \"postcss-flexbugs-fixes\": \"3.2.0\",\n    \"postcss-loader\": \"2.0.8\",\n    \"promise\": \"8.0.1\",\n    \"raf\": \"3.4.0\",\n    \"ramda\": \"^0.25.0\",\n    \"react\": \"^16.4.2\",\n    \"react-dev-utils\": \"^5.0.2\",\n    \"react-dom\": \"^16.4.2\",\n    \"renamer\": \"^1.0.0\",\n    \"resolve\": \"1.6.0\",\n    \"style-loader\": \"0.19.0\",\n    \"sw-precache-webpack-plugin\": \"0.11.4\",\n    \"url-loader\": \"0.6.2\",\n    \"webpack\": \"3.8.1\",\n    \"webpack-dev-server\": \"2.11.3\",\n    \"webpack-manifest-plugin\": \"1.3.2\",\n    \"whatwg-fetch\": \"2.0.3\"\n  },\n  \"scripts\": {\n    \"start\": \"node scripts/start.js\",\n    \"test\": \"node scripts/test.js --env=jsdom\",\n    \"build-rename\": \"npm run build-rename-js && npm run build-rename-css\",\n    \"build-rename-js\": \"cp build/static/js/main.*.js build/static/js/highlighter.js\",\n    \"build-rename-css\": \"cp build/static/css/main.*.css build/static/css/highlighter.css\",\n    \"build\": \"node scripts/build.js && npm run build-rename\"\n  },\n  \"jest\": {\n    \"collectCoverageFrom\": [\n      \"src/**/*.{js,jsx,mjs}\"\n    ],\n    \"setupFiles\": [\n      \"<rootDir>/config/polyfills.js\"\n    ],\n    \"testMatch\": [\n      \"<rootDir>/src/**/__tests__/**/*.{js,jsx,mjs}\",\n      \"<rootDir>/src/**/?(*.)(spec|test).{js,jsx,mjs}\"\n    ],\n    \"testEnvironment\": \"node\",\n    \"testURL\": \"http://localhost\",\n    \"transform\": {\n      \"^.+\\\\.(js|jsx|mjs)$\": \"<rootDir>/node_modules/babel-jest\",\n      \"^.+\\\\.css$\": \"<rootDir>/config/jest/cssTransform.js\",\n      \"^(?!.*\\\\.(js|jsx|mjs|css|json)$)\": \"<rootDir>/config/jest/fileTransform.js\"\n    },\n    \"transformIgnorePatterns\": [\n      \"[/\\\\\\\\]node_modules[/\\\\\\\\].+\\\\.(js|jsx|mjs)$\"\n    ],\n    \"moduleNameMapper\": {\n      \"^react-native$\": \"react-native-web\"\n    },\n    \"moduleFileExtensions\": [\n      \"web.js\",\n      \"js\",\n      \"json\",\n      \"web.jsx\",\n      \"jsx\",\n      \"node\",\n      \"mjs\"\n    ]\n  },\n  \"babel\": {\n    \"presets\": [\n      \"react-app\"\n    ]\n  },\n  \"eslintConfig\": {\n    \"extends\": \"react-app\"\n  },\n  \"devDependencies\": {\n    \"@babel/plugin-proposal-optional-chaining\": \"^7.0.0\",\n    \"babel-core\": \"^6.26.0\",\n    \"babel-loader\": \"^7.1.2\",\n    \"renamer\": \"^1.0.0\"\n  }\n}\n",
+    "longname": "/Users/martin/dev/js/highlighter/package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  }
+]
