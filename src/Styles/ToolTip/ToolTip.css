@@ -1,11 +1,12 @@
 .tooltip {
     position:absolute;
+    transform: translate(-50%, -50%);
 }
 
 .tooltip .top {
     min-width:200px;
     max-width:200px;
-    height: 40px;
+    height: 55px;
     background-color: green;
     font-weight:normal;
     font-size:14px;

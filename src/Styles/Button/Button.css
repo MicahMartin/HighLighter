@@ -1,15 +1,16 @@
 .button--container{
   display: inline-block;
-  height: 30px;
-  width: 25%;
-  margin: 0px 4% 0px 4%;
+  padding-top: 10px;
+  height: 44px;
+  width: 30%;
+  margin: 0px 1.5% 0px 1.5%;
 }
 .button--button{
   border:none;
   position:relative;
-  width: 75%;
-  margin-left: 10%;
-  height: 100%;
+  width: 50%;
+  margin-left: 25%;
+  height: 75%;
   background-size: 100% 100% !important;
 }
 .button--button.twitter{
