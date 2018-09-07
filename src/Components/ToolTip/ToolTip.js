@@ -19,22 +19,19 @@ class ToolTip extends Component {
     const logger = Utils.log("Button logger");
 
     // twitter button
-    const twitterFormatter = R.compose(TwitterUtils.formatTweet, Utils.replaceNewlines);
-    const twitterFuncs = R.compose(TwitterUtils.sendTweet, logger, encodeURIComponent, twitterFormatter);
+    const twitterFuncs = R.compose(TwitterUtils.sendTweet, logger, encodeURIComponent, TwitterUtils.formatTweet);
     buttons.push(<Button key="twitter" type="twitter" methods={twitterFuncs} selection={selection}/>);
 
     // facebook button
     buttons.push(<Button key="facebook" type="facebook" methods={FacebookUtils.shareFacebook} selection={selection}/>);
 
     // comment button
-    const options = Utils.keyEqValFormat({
-        id: "tooltip-comment",
-        class: "woohoo",
-        "font-size": "30px"
-    });
-    const italicsWrapper = Utils.tagWrapper('i')(options);
-    const commentFormatter = R.compose(CommentUtils.formatComment, italicsWrapper, Utils.replaceNewlines);
-    const commentFuncs = R.compose(CommentUtils.openComments, logger, commentFormatter);
+    const quoteSpan = Utils.tagWrapper('span')(Utils.keyEqValFormat({
+        id: "tooltip-quote",
+        style: "font-style: italic; font-size: 12px; color: blue;"
+    }));
+    const commentFormatter = R.compose(quoteSpan, Utils.replaceNewlines);
+    const commentFuncs = R.compose(CommentUtils.addQuoteToForm, logger, commentFormatter);
     buttons.push(<Button key="comment" type="comment" methods={commentFuncs} selection={selection}/>);
 
     return buttons;

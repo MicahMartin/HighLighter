@@ -19,12 +19,15 @@ export default class Utils {
     }
 
     const result = stringBuilder.join(seperator);
-
     return result;
   };
 
   static replaceNewlines = R.curry( string => string.replace(/[\r\n]+/g, ' '));
+
   static getUrl = () => window.location.href.split(/[?#]/)[0];
 
-
+  static newTab = url => {
+    const tab = window.open(url, '_blank');
+    tab.focus();    
+  };
 }
