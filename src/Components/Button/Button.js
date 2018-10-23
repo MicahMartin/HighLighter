@@ -3,27 +3,18 @@ import PropTypes from 'prop-types';
 import '../../Styles/Button/Button.css';
 
 const Button = (props) => {
-
-  function clickHandler(event) {
-    event.preventDefault();
-    props.methods(props.selection);
-  }
-
-  // vim highlighter breaks when i wrap tempale strings in curly braces
-  // sue me
-  const unnececaryFn = (type, component) => `button--${component} ${type}`;
+  const { type, clickHandler, selection } = props;
+  console.log("button props", {props});
 
   return (
-    <div className={unnececaryFn(props.type, 'container')}>
-      <button className={unnececaryFn(props.type, 'button')} onClick={clickHandler} />
+    <div className={`button--${type} container`}>
+      <button className={`button--${type} button`} onClick={() => clickHandler(selection)} />
     </div>
-    
   );
 }
 
 Button.propTypes = {
-  selection: PropTypes.string.isRequired,
-  methods: PropTypes.func.isRequired,
+  clickHandler: PropTypes.func.isRequired,
   type: PropTypes.string.isRequired
 };
 

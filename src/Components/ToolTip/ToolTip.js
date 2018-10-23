@@ -1,13 +1,4 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import * as R from 'ramda'
-
-import Button from '../Button/Button.js'
-import Utils from '../../Utils/Utils.js'
-import TwitterUtils from '../../Utils/TwitterUtils.js'
-import FacebookUtils from '../../Utils/FacebookUtils.js'
-import CommentUtils from '../../Utils/CommentUtils.js'
-
 import '../../Styles/ToolTip/ToolTip.css';
 
 /**
@@ -17,31 +8,37 @@ import '../../Styles/ToolTip/ToolTip.css';
 class ToolTip extends Component {
 
   /**
-   * builds out the buttons for the tooltip
-   * @param {String} selection - the selections text
-   * @returns {[Button]} buttons - list of Button instances
+   * Adds an event listener to the window to check for highlighted text whenever
+   * the mouse is released
+   * 
+   * @param {Object} props - props
   */
-  getButtons(selection) {
-    const buttons = [];
-    const logger = Utils.log("Button logger");
 
-    // twitter button
-    const twitterFuncs = R.compose(TwitterUtils.sendTweet, logger, encodeURIComponent, TwitterUtils.formatTweet);
-    buttons.push(<Button key="twitter" type="twitter" methods={twitterFuncs} selection={selection}/>);
+  constructor(props){
+    super(props);
 
-    // facebook button
-    buttons.push(<Button key="facebook" type="facebook" methods={FacebookUtils.shareFacebook} selection={selection}/>);
+    this.state = {
+      selection: ''
+    };
 
-    // comment button
-    const quoteSpan = Utils.tagWrapper('span')({
-        id: "tooltip-quote",
-        style: "font-style: italic; font-size: 12px; color: blue;"
-    });
-    const commentFormatter = R.compose(quoteSpan, Utils.replaceNewlines);
-    const commentFuncs = R.compose(CommentUtils.addQuoteToForm, logger, commentFormatter);
-    buttons.push(<Button key="comment" type="comment" methods={commentFuncs} selection={selection}/>);
+    this.getSelection = this.getSelection.bind(this);
 
-    return buttons;
+    document.addEventListener('mouseup', event => setTimeout(this.getSelection, 1));   
+  };
+
+  /**
+   * check for a selection, set to state if it exists
+   * @returns {Object} newState - will set new state
+  */
+  getSelection(){
+    const selection = window.getSelection();
+    if (selection.isCollapsed) {
+      console.log("unloading");
+      this.setState({selection: ''});
+    } else {
+      console.log("rendering");
+      this.setState({selection});
+    }
   }
 
   /**
@@ -59,9 +56,13 @@ class ToolTip extends Component {
   }
 
   render() {
-    const selection = this.props.selection;
-    const buttons = this.getButtons(selection.toString());
-    const position = this.getPosition(selection);
+    const { children } = this.props;
+    const { selection } = this.state;
+    console.log("the selection,", selection);
+
+    const position = selection ? this.getPosition(selection) : {display: "none"};
+    const buttons = children ? React.Children.map(children, child => React.cloneElement(child, {selection: selection.toString()})) : "";
+
     return (
       <div className="tooltip" style={position}>
         <div className="top">
@@ -72,9 +73,5 @@ class ToolTip extends Component {
     );
   }
 }
-
-ToolTip.propTypes = {
-  selection: PropTypes.object.isRequired
-};
 
 export default ToolTip;
