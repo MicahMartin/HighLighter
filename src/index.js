@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ToolTip from './Components/ToolTip/ToolTip.js';
+import Highlighter from './Components/Highlighter/Highlighter.js';
 import * as R from 'ramda'
 
 import Button from './Components/Button/Button.js'
@@ -28,10 +28,10 @@ const commentFuncs = R.compose(CommentUtils.addQuoteToForm, logger, commentForma
 // TODO: put this event listener in toolTip
 // instead of loading & re-rendering just switch display state
 ReactDOM.render(
-  <ToolTip>
+  <Highlighter>
     <Button key="twitter" type="twitter" clickHandler={twitterFuncs} />
     <Button key="comment" type="comment" clickHandler={commentFuncs} />
     <Button key="facebook" type="facebook" clickHandler={FacebookUtils.shareFacebook} />
-  </ToolTip>,
+  </Highlighter>,
   container
 );

@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import '../../Styles/ToolTip/ToolTip.css';
+import '../../Styles/Highlighter/Highlighter.css';
 
 /**
  * Main tooltip class.
  * @reactProps {Object} selection - the Selection instance
  */
-class ToolTip extends Component {
+class Highlighter extends Component {
 
   /**
    * Adds an event listener to the window to check for highlighted text whenever
@@ -74,4 +74,4 @@ class ToolTip extends Component {
   }
 }
 
-export default ToolTip;
+export default Highlighter;
